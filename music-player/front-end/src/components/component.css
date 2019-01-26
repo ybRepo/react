@@ -1,0 +1,127 @@
+/* *********************** GENERAL ********************** */
+/* ****************************************************** */
+.navbar {
+    border: none !important;
+}
+
+.card {
+    border: none;
+}
+
+.container {
+    margin: 0px !important;
+}
+
+.row {
+    width: 100vw;
+    display: flex;
+}
+
+.col-md-4{
+    padding: 0px;
+    border: none !important;
+}
+.col-md-8 {
+    flex: 1
+}
+
+/* *********************** PLAYER *********************** */
+/* ****************************************************** */
+
+.playerContainer{
+    margin-bottom: 20px;
+}
+
+.player{
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+
+button {
+    background-color: black;
+    padding-bottom: 0px;
+    vertical-align: middle;
+}
+
+.playerControlsPrev { 
+    display: inline-block;
+    font-size: 42px;
+    color: violet;
+}
+
+.playerControlsPlayPause{
+    display: inline-block;
+    font-size: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: violet;
+}
+
+.playerControlsNext {
+    display: inline-block;
+    font-size: 42px;
+    color: violet;
+}
+
+/* *********************** SongList ********************* */
+/* ****************************************************** */
+
+.albumTextStyle  {
+    font-size: 13; 
+    padding: 5; 
+    padding-top: 0; 
+    border-top: 0;
+}
+
+.titleTextStyle {
+    width: 100%;
+    padding: 5;
+    padding-bottom: 0
+}
+
+.playBtnStyle {
+     color: white;
+     background-color: #212529;
+     border: 0;
+     font-size: 32px;
+     margin-top: 20px;
+ }
+
+.albumTextStyle {
+    font-size: 13;
+    padding: 5;
+    padding-top: 0;
+    border-top: 0
+  }
+
+/* ********************* SongDetails ******************** */
+/* ****************************************************** */
+
+.songDetails{
+    background-color: black;
+}
+
+.backgroundImg {
+    display: inline-block;
+}
+
+.detailsWrapper{
+    display: inline-block
+}
+
+.playPauseBtnDetails{
+    display: inline-block;
+
+}
+
+.detailsWrapper >img {
+    height: 660px;
+    width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.waveForm{
+    width:100%
+}

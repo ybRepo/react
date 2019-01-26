@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EfxTransmit
+	xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
+	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
+		<CNConsumerCreditReports>
+			<CNConsumerCreditReport subjectType="SUBJECT" multipleNumber="1">
+				<CNHeader>
+					<Request>
+						<Protocol>COND</Protocol>
+						<CustomerReferenceNumber>TEAM-312</CustomerReferenceNumber>
+						<CustomerNumber>999AZ00050</CustomerNumber>
+						<LanguageIndicator>E</LanguageIndicator>
+						<InquiryType>I</InquiryType>
+						<OutputFormatCode>X</OutputFormatCode>
+					</Request>
+					<CreditFile>
+						<UniqueNumber>0026514653</UniqueNumber>
+						<FileSinceDate>2006-03-08</FileSinceDate>
+						<DateOfLastActivity>2015-09-05</DateOfLastActivity>
+						<DateOfRequest>2015-10-16</DateOfRequest>
+						<FileOwner>
+							<BureauCode>163</BureauCode>
+							<BureauContactInformation>Equifax  inc.</BureauContactInformation>
+						</FileOwner>
+						<HitCode code="1" description="HIT" />
+						<HitStrengthIndicator code="11" description="Regular hit" />
+					</CreditFile>
+					<Subject>
+						<SubjectName>
+							<LastName>POULIOTTE</LastName>
+							<FirstName>MARLENE</FirstName>
+						</SubjectName>
+						<SubjectId>
+							<DateOfBirth type="DATE">1945-11-20</DateOfBirth>
+						</SubjectId>
+					</Subject>
+				</CNHeader>
+				<CNAddresses>
+					<CNAddress code="CA" description="Current Address">
+						<DateReported>2014-01</DateReported>
+						<CivicNumber>79</CivicNumber>
+						<StreetName>THE GREENWAY</StreetName>
+						<City code="CAM">CAMBRIDGE</City>
+						<Province code="ON" description="ONTARIO" />
+						<PostalCode>N1R6L9</PostalCode>
+						<UpdateSource code="C" description="Crt rptd" />
+					</CNAddress>
+				</CNAddresses>
+				<CNEmployments>
+					<CNEmployment code="ES" description="Subject&apos;sCurrent Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+					<CNEmployment code="EF" description="Subject&apos;s Former Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+					<CNEmployment code="E2" description="Subject&apos;s 2nd Former Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+				</CNEmployments>
+				<CNBankruptciesOrActs>
+					<CNBankruptcyOrAct>
+						<DateFiled>2013-12</DateFiled>
+						<CourtId>
+							<CustomerNumber>001VS00113</CustomerNumber>
+							<Name>CS MTL</Name>
+						</CourtId>
+						<CaseNumberAndTrustee>9876</CaseNumberAndTrustee>
+						<Type code="B" description="Business" />
+						<IntentOrDisposition code="T" description="Opd-settled"></IntentOrDisposition>
+						<LiabilityAmount>000000000011</LiabilityAmount>
+					</CNBankruptcyOrAct>
+				</CNBankruptciesOrActs>
+				<CNCollections>
+					<CNCollection code="UC" description="Unpaid Collection">
+						<AssignedDate>2012-02</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>8881</LedgerNumber>
+						<OriginalAmount>000000000006</OriginalAmount>
+						<BalanceAmount>000000001300</BalanceAmount>
+						<DateOfLastPayment>2012-02</DateOfLastPayment>
+					</CNCollection>
+					<CNCollection code="UC" description="Unpaid Collection">
+						<AssignedDate>2012-02</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>5431</LedgerNumber>
+						<OriginalAmount>000000000004</OriginalAmount>
+						<BalanceAmount>000000001300</BalanceAmount>
+						<DateOfLastPayment>2012-02</DateOfLastPayment>
+					</CNCollection>
+					<CNCollection code="UC" description="Unpaid Collection">
+						<AssignedDate>2012-01</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>3211</LedgerNumber>
+						<OriginalAmount>000000000002</OriginalAmount>
+						<BalanceAmount>000000001300</BalanceAmount>
+						<DateOfLastPayment>2012-01</DateOfLastPayment>
+						<Narratives>
+							<Narrative code="AE" description="Business venture/subject liable" />
+						</Narratives>
+					</CNCollection>
+					<CNCollection code="PC" description="Paid Collection">
+						<AssignedDate>2012-02</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>8711</LedgerNumber>
+						<OriginalAmount>000000000005</OriginalAmount>
+						<BalanceAmount>000000001300</BalanceAmount>
+						<DateOfLastPayment>2012-02</DateOfLastPayment>
+						<DatePaid>2011-12</DatePaid>
+					</CNCollection>
+					<CNCollection code="PC" description="Paid Collection">
+						<AssignedDate>2012-01</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>1122</LedgerNumber>
+						<OriginalAmount>000000000003</OriginalAmount>
+						<BalanceAmount>000000001300</BalanceAmount>
+						<DateOfLastPayment>2012-01</DateOfLastPayment>
+						<DatePaid>2013-12</DatePaid>
+					</CNCollection>
+					<CNCollection code="PC" description="Paid Collection">
+						<AssignedDate>2013-12</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>0981</LedgerNumber>
+						<OriginalAmount>000000000001</OriginalAmount>
+						<BalanceAmount>000000001300</BalanceAmount>
+						<DateOfLastPayment>2013-12</DateOfLastPayment>
+						<DatePaid>2013-12</DatePaid>
+						<Narratives>
+							<Narrative code="AE" description="Business venture/subject liable" />
+						</Narratives>
+					</CNCollection>
+				</CNCollections>
+				<CNLegalItems>
+					<CNLegalItem code=" AJ" description="Judgment">
+						<DateFiled>2013-12</DateFiled>
+						<CourtId>
+							<CustomerNumber>483VS00049</CustomerNumber>
+							<Name>PC KINGSVILLE</Name>
+						</CourtId>
+						<CaseNumber>3345</CaseNumber>
+						<Status code="T" description="Settled" />
+						<Amount>000000000001</Amount>
+						<Defendant>S</Defendant>
+						<Plaintiff>ASSOCIATES</Plaintiff>
+					</CNLegalItem>
+				</CNLegalItems>
+				<CNGarnishments>
+					<CNGarnishment>
+						<DateFiled>2013-12</DateFiled>
+						<CourtId>
+							<CustomerNumber>473VS00116</CustomerNumber>
+							<Name>PC OTTAWA</Name>
+						</CourtId>
+						<CaseNumber>1111</CaseNumber>
+						<Amount>000000000650</Amount>
+						<Plaintiff>TD BANK</Plaintiff>
+						<Garnishee>JOHN AND BRAD INC</Garnishee>
+					</CNGarnishment>
+					<CNGarnishment>
+						<DateFiled>2013-12</DateFiled>
+						<CourtId>
+							<CustomerNumber>473VS00116</CustomerNumber>
+							<Name>PC OTTAWA</Name>
+						</CourtId>
+						<CaseNumber>2222</CaseNumber>
+						<Amount>000000001050</Amount>
+						<Plaintiff>TD BANK</Plaintiff>
+						<Garnishee>JOHN AND BRAD INC</Garnishee>
+						<Narratives>
+							<Narrative code="CM" description="Credit counselling" />
+						</Narratives>
+					</CNGarnishment>
+					<CNGarnishment>
+						<DateFiled>2013-12</DateFiled>
+						<CourtId>
+							<CustomerNumber>473VS00116</CustomerNumber>
+							<Name>PC OTTAWA</Name>
+						</CourtId>
+						<CaseNumber>3333</CaseNumber>
+						<Amount>000000000750</Amount>
+						<Plaintiff>TD BANK</Plaintiff>
+						<Garnishee>JOHN AND BRAD INC</Garnishee>
+					</CNGarnishment>
+					<CNGarnishment>
+						<DateFiled>2013-12</DateFiled>
+						<CourtId>
+							<CustomerNumber>473VS00116</CustomerNumber>
+							<Name>PC OTTAWA</Name>
+						</CourtId>
+						<CaseNumber>4444</CaseNumber>
+						<Amount>000000001150</Amount>
+						<Plaintiff>TD BANK</Plaintiff>
+						<Garnishee>JOHN AND BRAD INC</Garnishee>
+					</CNGarnishment>
+					<CNGarnishment>
+						<DateFiled>2013-12</DateFiled>
+						<CourtId>
+							<CustomerNumber>473VS00116</CustomerNumber>
+							<Name>PC OTTAWA</Name>
+						</CourtId>
+						<CaseNumber>5555</CaseNumber>
+						<Amount>000000000850</Amount>
+						<Plaintiff>TD BANK</Plaintiff>
+						<Garnishee>JOHN AND BRAD INC</Garnishee>
+					</CNGarnishment>
+				</CNGarnishments>
+				<CNTrades>
+					<CNTrade>
+						<DateReported>2015-08</DateReported>
+						<CreditorId>
+							<CustomerNumber>001AN00168</CustomerNumber>
+							<Name>LOCATION AUTO 440</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>337-4400</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>800000000074551</AccountNumber>
+						<PaymentTermAmount>000000000055</PaymentTermAmount>
+						<BalanceAmount>000000001000</BalanceAmount>
+						<DateOpened>2013-09</DateOpened>
+						<DateLastActivityOrPayment>2013-11</DateLastActivityOrPayment>
+						<PortfolioType code="O" description="Open" />
+						<PaymentRate code="9" description="Bad debt, collection account or unable to locate" />
+						<Narratives>
+							<Narrative code="FE" description="Lease-early termination by default" />
+							<Narrative code="FC" description="Redeemed repossession" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2015-08</DateReported>
+						<CreditorId>
+							<CustomerNumber>001FP00132</CustomerNumber>
+							<Name>BENEFICIAL FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>765-8880</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>800000000074549</AccountNumber>
+						<PaymentTermAmount>000000000088</PaymentTermAmount>
+						<BalanceAmount>000000004000</BalanceAmount>
+						<MonthsReviewed>09</MonthsReviewed>
+						<DateOpened>2013-09</DateOpened>
+						<DateLastActivityOrPayment>2015-07</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="7" description="Paid through consolidation order or similar arrangement" />
+						<PreviousHighPaymentRates>
+							<PreviousHighPaymentRate code="7" description="Paid through consolidation order or similar arrangement">
+								<Date>2015-01</Date>
+							</PreviousHighPaymentRate>
+							<PreviousHighPaymentRate code="7" description="Paid through consolidation order or similar arrangement">
+								<Date>2013-11</Date>
+							</PreviousHighPaymentRate>
+						</PreviousHighPaymentRates>
+						<Narratives>
+							<Narrative code="FE" description="Lease-early termination by default" />
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2015-08</DateReported>
+						<CreditorId>
+							<CustomerNumber>001DV00162</CustomerNumber>
+							<Name>HBC CARD</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>450</AreaCode>
+									<Number>670-2550</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>800000000074550</AccountNumber>
+						<PaymentTermAmount>000000007777</PaymentTermAmount>
+						<BalanceAmount>000000007000</BalanceAmount>
+						<MonthsReviewed>09</MonthsReviewed>
+						<DateOpened>2013-09</DateOpened>
+						<DateLastActivityOrPayment>2015-07</DateLastActivityOrPayment>
+						<PortfolioType code="O" description="Open" />
+						<PaymentRate code="8" description="Showing a repossession" />
+						<PreviousHighPaymentRates>
+							<PreviousHighPaymentRate code="8" description="Showing a repossession">
+								<Date>2015-01</Date>
+							</PreviousHighPaymentRate>
+							<PreviousHighPaymentRate code="8" description="Showing a repossession">
+								<Date>2013-11</Date>
+							</PreviousHighPaymentRate>
+						</PreviousHighPaymentRates>
+						<Narratives>
+							<Narrative code="FE" description="Lease-early termination by default" />
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+				</CNTrades>
+				<CNLocalInquiries>
+					<CNLocalInquiry date="2015-07-14">
+						<CustomerId>
+							<CustomerNumber>464BB15741</CustomerNumber>
+							<Name>MANULIFE BANK TRUST</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>877</AreaCode>
+									<Number>765-2265</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+				</CNLocalInquiries>
+				<CNForeignInquiries>
+					<CNForeignInquiry date="2015-05-31">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2015-05-24">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2015-05-18">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2015-05-17">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2015-05-16">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2015-05-15">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+				</CNForeignInquiries>
+				<CNScores>
+					<CNScore productType="SCBS" productId="30121" description="BEACON">
+						<VersionNumber>010</VersionNumber>
+						<ModelId>A</ModelId>
+						<ScoreNumber>1</ScoreNumber>
+						<ScoreIndicator>S</ScoreIndicator>
+						<Result>
+							<Value>00409</Value>
+						</Result>
+						<Reasons>
+							<Reason code="00038" description="Serious delinquency and public record or collection filed." />
+							<Reason code="00012" description="Length of time revolving accounts have been established." />
+							<Reason code="00013" description="Time since delinquency is too recent or unknown." />
+							<Reason code="00056" description="Amount owed on retail accounts." />
+						</Reasons>
+					</CNScore>
+					<CNScore productType="SCBS" productId="30103" description="CRP 3.0">
+						<VersionNumber>010</VersionNumber>
+						<ModelId>A</ModelId>
+						<ScoreNumber>1</ScoreNumber>
+						<ScoreIndicator>S</ScoreIndicator>
+						<Result>
+							<Value>00433</Value>
+						</Result>
+						<Reasons>
+							<Reason code="00077" description="Number of derogatory public records." />
+							<Reason code="000FK" description="Number of trades with high utilization in last 12 months." />
+							<Reason code="00098" description="Number of trades 30+ days in last 12 months." />
+							<Reason code="000S1" description="Thin Subprime Credit File" />
+						</Reasons>
+					</CNScore>
+				</CNScores>
+				<CNFraudWarnings>
+					<CNFraudWarning productId="SF" description="SAFESCAN WARNING">
+						<Messages>
+							<Message priority="000" code="0" description="NO FRAUD INDICATION WAS DETECTED" />
+						</Messages>
+					</CNFraudWarning>
+				</CNFraudWarnings>
+			</CNConsumerCreditReport>
+		</CNConsumerCreditReports>
+	</EfxReport>
+</EfxTransmit>

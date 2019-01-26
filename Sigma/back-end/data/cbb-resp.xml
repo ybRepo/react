@@ -1,0 +1,146 @@
+<cbb
+	xmlns="http://xml.blkbk.com/vehicle/3/0" schemaVersion="3.0">
+	<response>
+		<dataVersion>2016/07/01</dataVersion>
+		<vehicles>
+			<vehicle>
+				<vins>
+					<vin>
+						<vinNumber>KMHCN5AE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCN5BE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCN5DE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCN5JE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCN5KE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCN5LE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCT5AE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCT5BE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCT5DE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCT5JE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCT5KE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+					<vin>
+						<vinNumber>KMHCT5LE</vinNumber>
+						<uvc>162</uvc>
+						<modelNumber>45AF16BB00</modelNumber>
+						<vinStyle>5D Hatchback at</vinStyle>
+					</vin>
+				</vins>
+				<year vinYear="G">2016</year>
+				<manufacturer>Hyundai</manufacturer>
+				<make id="25">Hyundai</make>
+				<model id="44">Accent</model>
+				<trim id="213">GL</trim>
+				<style id="504">5D Hatchback at</style>
+				<manufacturerCode>380</manufacturerCode>
+				<vid>359419</vid>
+				<carOrTruck>car</carOrTruck>
+				<segment>A</segment>
+				<values>
+					<msrp>17849</msrp>
+					<wholesalePrices>
+						<basePrice>
+							<extraCleanPrice>15450</extraCleanPrice>
+							<cleanPrice>14500</cleanPrice>
+							<averagePrice>13450</averagePrice>
+							<roughPrice>11800</roughPrice>
+						</basePrice>
+						<optionAdjustmentPrice>
+							<extraCleanAdjustment>0</extraCleanAdjustment>
+							<cleanAdjustment>0</cleanAdjustment>
+							<averageAdjustment>0</averageAdjustment>
+							<roughAdjustment>0</roughAdjustment>
+						</optionAdjustmentPrice>
+						<regionAdjustmentPrice>
+							<extraCleanAdjustment>0</extraCleanAdjustment>
+							<cleanAdjustment>0</cleanAdjustment>
+							<averageAdjustment>0</averageAdjustment>
+							<roughAdjustment>0</roughAdjustment>
+						</regionAdjustmentPrice>
+					</wholesalePrices>
+					<retailPrices>
+						<basePrice>
+							<extraCleanPrice>18400</extraCleanPrice>
+							<cleanPrice>17200</cleanPrice>
+							<averagePrice>15800</averagePrice>
+							<roughPrice>13925</roughPrice>
+						</basePrice>
+						<optionAdjustmentPrice>
+							<extraCleanAdjustment>0</extraCleanAdjustment>
+							<cleanAdjustment>0</cleanAdjustment>
+							<averageAdjustment>0</averageAdjustment>
+							<roughAdjustment>0</roughAdjustment>
+						</optionAdjustmentPrice>
+						<regionAdjustmentPrice>
+							<extraCleanAdjustment>0</extraCleanAdjustment>
+							<cleanAdjustment>0</cleanAdjustment>
+							<averageAdjustment>0</averageAdjustment>
+							<roughAdjustment>0</roughAdjustment>
+						</regionAdjustmentPrice>
+					</retailPrices>
+					<loanValue>13050</loanValue>
+					<fairMarketValue>17400</fairMarketValue>
+				</values>
+				<options/>
+				<includes>
+					<includeList>4CY PS </includeList>
+					<include id="4CY">4CY</include>
+					<include id="PS">Power Steering</include>
+				</includes>
+				<directives/>
+			</vehicle>
+		</vehicles>
+	</response>
+</cbb>

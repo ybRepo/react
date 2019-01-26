@@ -1,0 +1,29 @@
+{
+  "name": "music-player",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.4.1",
+    "react-audio-spectrum": "0.0.9",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-waveform": "^0.1.0",
+    "react-wavesurfer": "^0.8.6",
+    "wavesurfer.js": "^2.0.0-beta01"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  }
+}
